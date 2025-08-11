@@ -663,9 +663,7 @@ img {
   display: flex;
   flex-direction: column;
 }
-.backdrop-wrapper {
-  margin-bottom: 8px;
-}
+
 .form-lable {
   display: block;
   font-weight: 400;
@@ -732,7 +730,7 @@ img {
   border-color: #4d5ae5;
 }
 .backdrop-wrapper {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 .checkbox-lable {
   font-weight: 400;
