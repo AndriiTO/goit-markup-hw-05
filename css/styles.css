@@ -732,6 +732,9 @@ img {
 .backdrop-wrapper {
   margin-bottom: 8px;
 }
+.checkbox-conteiner {
+  margin-bottom: 24px;
+}
 .checkbox-lable {
   font-weight: 400;
   font-size: 12px;
