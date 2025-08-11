@@ -556,7 +556,6 @@ img {
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   font-weight: 500;
   font-size: 16px;
@@ -630,12 +629,13 @@ img {
   height: 24px;
   background-color: #e7e9fc;
   border-radius: 50%;
-  border: 1px solid rgba(142, 143, 153, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   stroke: #2e2f42;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .close-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -802,4 +802,9 @@ img {
 .form-button-submit:hover,
 .form-button-submit:focus {
   background-color: #404bbf;
+}
+.checkbox-input:checked + .checkbox-lable .custom-checkbox-button {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
